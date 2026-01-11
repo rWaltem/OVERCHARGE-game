@@ -147,11 +147,11 @@ public class ShipManager : MonoBehaviour
 
         RaycastHit hit;
 
-        if (Physics.Raycast(transform.position, -transform.up, out hit, 10))
+        if (Physics.Raycast(transform.position, -transform.up, out hit, 6))
         {            
             // rotate ship to follow track normal
             Quaternion targetRot = Quaternion.FromToRotation(transform.up, hit.normal) * transform.rotation;
-            transform.rotation = Quaternion.Lerp(transform.rotation, targetRot, 0.75f);
+            transform.rotation = Quaternion.Lerp(transform.rotation, targetRot, 0.15f);
 
             // ship height PID control
             float error = shipHeight - hit.distance;

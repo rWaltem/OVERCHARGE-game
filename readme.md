@@ -1,11 +1,37 @@
-# Mechanic ideas
+# Ideas for how the game will work
 
 ## Movement
 
-- Slight air control
-- Charge boost at start
-- Characters have a specialty track type and they have a speed boost when on their specialty track
-- Drifting corners turns faster
+### Air control
+
+Players can slightly turn while in the air
+
+### Start boost
+
+Dial spins at start of race with a 'good' area, if player throttles while in the good area, they get a slight boost at start of race
+
+### Specialty track boost
+
+Characters have a specialty track type and they have a speed boost when on their track
+
+### Character - Ship match
+
+If a character and ship both have the same specicalty, their recover time slightly decreases and their rechargeRate slightly increases
+
+### Drifting
+
+While drifting the back of the ship steps out giving them a slightly better turn in
+
+## Controls
+
+- Throttle: A
+- Break: B
+- Turning: L Stick
+- Boost: RB
+- R Trick: R Trig
+- L Trick: L Trig
+- F Trick: Both Trigs
+- Item: LB
 
 ## Race Types
 
@@ -49,23 +75,25 @@ Track has only one drivable side, aka not a mobius loop
 
 ## Ship Stats
 
-Speed
-
-Accel
-
-Weight
-
-Handling
+- Speed
+- Accel
+- Weight
+- Handling
 
 ### Hidden Stats
 
-Specialty speed boost
+- Max Charge
+- Recharge rate
+- Recover speed
+- Specialty
 
-Max Charge
+## Character Stats
 
-Recharge rate
+- Skill (Recovery Speed)
 
-Recover speed
+## Hidden stats
+
+- Specialty
 
 ## Charge
 
@@ -113,14 +141,18 @@ Gives player some charge when used
 
 Creates a AOE attack that lowers ships charge when going through
 
-# Camera Effects
+### Frequency Jammer
 
-## FOV
+Makes player invisible to any tracking item
+
+## Camera Effects
+
+### FOV
 
 FOV increases with speed
 
 Final stretch before end of race increases FOV
 
-## Shake
+### Shake
 
 Shake increases with speed

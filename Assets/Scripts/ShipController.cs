@@ -30,6 +30,7 @@ public class ShipController : MonoBehaviour
     public float shipHeight = 2f;
 
     // private variables
+    private GetStats playerStats;
     private Rigidbody rb;
     private Vector3 gravityVector;
     private float speedInput;
@@ -44,6 +45,7 @@ public class ShipController : MonoBehaviour
 
     void Awake()
     {
+        playerStats = GetComponent<GetStats>();
         playerControls = new InputSystem_Actions();
     }
 

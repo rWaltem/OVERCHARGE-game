@@ -44,14 +44,16 @@ public class ShipManager : MonoBehaviour
     private Rigidbody rb;
     private LayerMask trackLayerMask;
 
+    // PID height
     private float shipHeight = 4;
     private float Kp = 500f;
     private float Ki = 0f;
     private float kD = 30f;
-
     private float integral;
     private float lastError;
 
+    // charge
+    private int currentCharge;
 
     // is set by other scripts to control ship functions
     public void SetInput(float throttle, float brake, float steering, bool boost)
@@ -110,6 +112,16 @@ public class ShipManager : MonoBehaviour
         shipModel.transform.localScale = shipModelScaleFactor;
 
         Debug.Log("Instantiated ship model");
+    }
+
+    /* Controls charge stuff */
+    void UpdateCharge()
+    {
+        // update shit here mate
+        // like raycast
+        // and current charge
+        // and recharge
+        // and boost
     }
 
     /* Update is called every frame */

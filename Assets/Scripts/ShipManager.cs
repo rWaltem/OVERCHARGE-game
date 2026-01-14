@@ -32,6 +32,11 @@ public class ShipManager : MonoBehaviour
     public Vector3 shipModelTargetLocalPosition;
     public Quaternion shipModelTargetLocalRotation;
 
+    [Header("")]
+    public float currentCharge;
+    public float boostAmount;
+    public bool isGrounded;
+
     [Header("Inputs")]
     public float throttleInput;
     public float brakeInput;
@@ -45,15 +50,12 @@ public class ShipManager : MonoBehaviour
     private LayerMask trackLayerMask;
 
     // PID height
-    private float shipHeight = 4;
+    private float shipHeight = 2.5f;
     private float Kp = 500f;
     private float Ki = 0f;
     private float kD = 30f;
     private float integral;
     private float lastError;
-
-    // charge
-    private int currentCharge;
 
     // is set by other scripts to control ship functions
     public void SetInput(float throttle, float brake, float steering, bool boost)
@@ -146,7 +148,7 @@ public class ShipManager : MonoBehaviour
             thrust = 0;
         }
 
-        thrust *= 100;
+        thrust *= 200;
 
         rb.AddForce(transform.forward * thrust);
     }
@@ -179,6 +181,7 @@ public class ShipManager : MonoBehaviour
             // thrusting logic
             AddThrust();
 
+            //Debug.Log($"Distance from ground: {hit.distance}");
         } else
         {
             Debug.DrawRay(transform.position, -transform.up, Color.red);

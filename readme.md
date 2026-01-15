@@ -1,5 +1,53 @@
 # Ideas for how the game will work
 
+## Devlopment Demo Path
+
+### First full through line (Pre-Alpha)
+
+- (x) Dev track
+- (x) Dev ship
+- (x) Simple driving physics
+- ( ) Ship Charge
+- ( ) Boosting
+- ( ) Tricks
+- ( ) Track Gates
+- ( ) Lap Timer
+- ( ) Track Position
+- ( ) Race can finish
+- ( ) Normalized Stats
+- ( ) Time trials
+- ( ) After race leaderboard
+- ( ) Pause Menu
+- ( ) Simple Menu
+- ( ) Release first pre-alpha build
+
+### First Demo (Alpha)
+
+- ( ) More Track Models
+- ( ) Can pick tracks
+- ( ) CPU drivers
+- ( ) Track Cups
+- ( ) After cup leaderboard
+- ( ) Touring Mode
+- ( ) More Ship Models
+- ( ) Character Models
+- ( ) Can pick character + ships
+- ( ) Release first 'complete' alpha build
+
+### After Demo (Beta)
+
+- ( ) Items
+- ( ) Chaos Mode
+- ( ) Beautify
+
+### Before first full release (Delta)
+
+- ( ) Add more tracks/cups
+- ( ) Add more ships
+- ( ) Add more characters
+- ( ) Polish areas when it needs polish
+- ( ) First proper release
+
 ## Movement
 
 ### Air control

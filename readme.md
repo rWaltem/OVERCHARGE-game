@@ -1,6 +1,6 @@
 # Ideas for how the game will work
 
-## Devlopment Demo Path
+## Devlopment Path
 
 ### First full through line (Pre-Alpha)
 
@@ -38,15 +38,15 @@
 
 - ( ) Items
 - ( ) Chaos Mode
-- ( ) Beautify
-
-### Before first full release (Delta)
-
 - ( ) Add more tracks/cups
 - ( ) Add more ships
 - ( ) Add more characters
+- ( ) Beautify
+
+### Full release (Delta)
+
 - ( ) Polish areas when it needs polish
-- ( ) First proper release
+- ( ) Release 1.0
 
 ## Movement
 

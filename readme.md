@@ -1,6 +1,6 @@
 # OVERCHARGE
 
-OVERCHARGE is a fast-paced racing game focused on speed, skill, and careful management of momentum which was inspired by F-Zero GX and Mario Kart. The game features two main modes: one that emphasizes precision driving, track knowledge, and competing against computer-controlled or online opponents; and one that introduces interactive items that affect other players. Races take place on futuristic tracks with non-traditional designs, including enclosed circuits and Möbius-style loops that allow players to drive on both sides of the track in a single lap. Players must manage a charge-based resource, which functions like fuel, gradually depleting over time and more quickly at higher speeds. This resource is used for temporary speed boosts and aerial maneuvers, with successful tricks providing additional speed, encouraging thoughtful risk-taking and efficient movement. Additional mechanics, such as drifting and timing boosts, reward skillful play while keeping control and feedback clear.
+OVERCHARGE is a fast-paced arcade racing game inspired by F-Zero GX and Mario Kart with gameplay focusing on speed, skill, and resource management. It features tracks that are 'anti-gravity' where the player can race in any orientation, allowing unique track layouts to be made. For example, a Mobius strip, or tunnel where you can race on every surface. The player can pick different characters to play as and ships to drive, which have different stats and driving characteristics.
 
 ## Devlopment Path
 
@@ -31,7 +31,7 @@ OVERCHARGE is a fast-paced racing game focused on speed, skill, and careful mana
 - ( ) CPU drivers
 - ( ) Track Cups
 - ( ) After cup leaderboard
-- ( ) Touring Mode
+- ( ) Classic Mode
 - ( ) More Ship Models
 - ( ) Character Models
 - ( ) Can pick character + ships
@@ -86,13 +86,13 @@ While drifting the back of the ship steps out giving them a slightly better turn
 
 ## Race Types
 
-### Touring
+### Classic
 
 Race 3 or 4 tracks in a cup
 
 ### Chaos
 
-Same as touring but with items
+Same as Classic but with items
 
 ### Time Attack
 
@@ -100,7 +100,7 @@ No items or other players, constant RNG
 
 ### Online
 
-Online version of touring and chaos
+Online version of Classic and chaos
 
 ## Track Type
 

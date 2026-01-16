@@ -1,4 +1,6 @@
-# Ideas for how the game will work
+# OVERCHARGE
+
+OVERCHARGE is a fast-paced racing game focused on speed, skill, and careful management of momentum which was inspired by F-Zero GX and Mario Kart. The game features two main modes: one that emphasizes precision driving, track knowledge, and competing against computer-controlled or online opponents; and one that introduces interactive items that affect other players. Races take place on futuristic tracks with non-traditional designs, including enclosed circuits and Möbius-style loops that allow players to drive on both sides of the track in a single lap. Players must manage a charge-based resource, which functions like fuel, gradually depleting over time and more quickly at higher speeds. This resource is used for temporary speed boosts and aerial maneuvers, with successful tricks providing additional speed, encouraging thoughtful risk-taking and efficient movement. Additional mechanics, such as drifting and timing boosts, reward skillful play while keeping control and feedback clear.
 
 ## Devlopment Path
 
@@ -14,6 +16,7 @@
 - ( ) Lap Timer
 - ( ) Track Position
 - ( ) Race can finish
+- ( ) Starter boost
 - ( ) Normalized Stats
 - ( ) Time trials
 - ( ) After race leaderboard
